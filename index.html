@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech.com Q&A</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="title">TECH.COM</h1>
+        <form id="questionForm">
+            <label for="question">Qual a sua dúvida?</label>
+            <input type="text" id="question" name="question" required>
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="answerSection">
+            <h2 class="section-title">Resposta:</h2>
+            <p id="answer"></p>   
+        
+            
+        </div>
+        <div id="historySection">
+            <h2 class="section-title">Histórico:</h2>
+            <ul id="historyList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

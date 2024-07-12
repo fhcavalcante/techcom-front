@@ -1,0 +1,136 @@
+body {
+    font-family: 'Roboto', sans-serif; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #181818; /* Dark background */
+    color: #fff; /* White text */
+    overflow: hidden; /* For a cleaner look */
+}
+
+.container {
+    background-color: #282c34; /* Darker grey for contrast */
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 600px;
+    max-width: 100%;
+    position: relative; /* For positioning elements */
+}
+
+.title {
+    
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 30px;
+    text-shadow: 0 0 5px rgba(0, 255, 255, 0.5); /* Subtle glow effect */
+}
+
+.section-title {
+    color: #00ffff; /* Cyan for highlights */
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 60px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    background-color: #edf0f5;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+    color: #3a3939;
+}
+
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #00ffff; 
+    color: #181818; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+button:hover {
+    background-color: #00ccff; 
+}
+
+#answerSection, #historySection {
+    margin-top: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+
+}
+
+
+#historyList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#historyList li {
+    padding: 10px;
+    border-bottom: 1px solid #444;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-btn {
+    background-color: #ff0000; /* Red for delete */
+    color: white;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 1 1 10px rgba(255, 0, 0, 0.5);
+    width: 60px
+   
+}
+
+.delete-btn:hover {
+    background-color: #cc0000; 
+}
+
+.edit-btn {
+    background-color: #979497; 
+    color: white;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 1 1 10px rgba(255, 0, 0, 0.5);
+    width: 60px
+
+}
+
+.edit-btn:hover {
+    background-color: #cc0000; /* Darker red on hover */
+}
